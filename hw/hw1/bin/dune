@@ -1,0 +1,19 @@
+(library
+(name fa)
+ (modules fa)
+ (libraries))
+
+(env
+  (dev
+    (flags (:standard -warn-error -A))))
+
+(executable
+ (public_name main)
+ (name main)
+ (modules main)
+ (promote (until-clean))
+ (libraries
+; OCaml standard libraries  
+; project libraries
+  util
+  studenttests))

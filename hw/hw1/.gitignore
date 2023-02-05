@@ -1,0 +1,6 @@
+_build
+bin/main.exe
+oatc
+*.zip
+*.swp
+*.swo

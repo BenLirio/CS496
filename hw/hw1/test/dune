@@ -1,0 +1,9 @@
+(env
+  (dev
+    (flags (:standard -warn-error -A))))
+
+(library
+  (name studenttests)
+  (modules studenttests)
+  (libraries util fa))
+
